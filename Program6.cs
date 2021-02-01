@@ -25,6 +25,9 @@ namespace HelloWorld
             string sayHello = " Hello World! ";
             sayHello = sayHello.Replace("Hello", "Greetings");
             Console.WriteLine(sayHello);
+            string songLyrics = " You say goodbye, I say hello";
+            Console.WriteLine(songLyrics.Contains("goodbye"));
+
 
 
         }
